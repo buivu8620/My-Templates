@@ -1,0 +1,29 @@
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .item__heading {
+    height: 100px;
+  }
+  .item__btn {
+    width: 35%;
+  }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .item {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .item__heading {
+    text-align: center;
+  }
+  .footer {
+    position: relative;
+  }
+}
