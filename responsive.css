@@ -6,6 +6,9 @@
   .item__btn {
     width: 35%;
   }
+  .item {
+    width: 43%;
+  }
 }
 
 /* mobile */
@@ -18,7 +21,7 @@
   }
   .item {
     width: 100%;
-    margin-bottom: 16px;
+    margin: 16px 0 0 0;
   }
   .item__heading {
     text-align: center;
