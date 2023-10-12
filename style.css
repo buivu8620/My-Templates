@@ -39,13 +39,13 @@
 }
 .main {
   display: flex;
-
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 16px;
 }
 .item {
   background-color: #eeeeee;
-  width: 30%;
+  width: 28%;
   margin: 10px 25px;
   padding: 8px 16px;
   display: flex;
